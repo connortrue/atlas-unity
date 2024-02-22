@@ -1,9 +1,1 @@
-the thunder rolls
-and the lightning strikes
-another love gorws cold
-on a sleepless night
-
-as the storm rolls on
-out of countrol
-deep in her heart
-the thunder rolls
+Skyboxes: Farland Skies - Cloudy Crown: https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004
