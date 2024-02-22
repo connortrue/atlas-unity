@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody player;
 
-    public float move = 5000f;
+    public float move = 3000f;
     public float jump = 1000f;
 
     void Update()
@@ -18,8 +18,7 @@ public class PlayerController : MonoBehaviour
             //SceneManager.LoadScene("menu");
         }
 
-        //SetScoreText();
-        //SetHealthText();
+        CheckFall();
     }
 
     IEnumerator LoadScene(float delay)
@@ -49,6 +48,19 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey("space"))
         {
             player.AddForce(0,jump * Time.deltaTime,0);
+        }
+    }
+
+    void CheckFall()
+    {
+        // Define the bottom of the screen
+        float screenBottom = -10f; // Adjust this value as needed
+
+        // If the player has fallen off the screen
+        if (transform.position.y < screenBottom)
+        {
+            // Reset the player's position to the top of the screen
+            transform.position = new Vector3(transform.position.x,  200, transform.position.z);
         }
     }
 
