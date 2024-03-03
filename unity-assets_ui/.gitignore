@@ -73,7 +73,9 @@ crashlytics-build.properties
 
 # Mine
 *.obj
-*.ogj.meta
+*.obj.meta
+*.mat
 *.json
 *.meta
-
+*.png
+*.asset
