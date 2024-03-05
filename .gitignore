@@ -76,4 +76,5 @@ crashlytics-build.properties
 *.ogj.meta
 *.json
 *.meta
-
+*.txt
+*.pdf
