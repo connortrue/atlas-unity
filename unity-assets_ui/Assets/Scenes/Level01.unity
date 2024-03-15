@@ -805,6 +805,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 74559346727348552, guid: 66619778747a1535da5acfca13f267b9, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 794555856049197981, guid: 66619778747a1535da5acfca13f267b9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -888,6 +892,10 @@ PrefabInstance:
     - target: {fileID: 5349559676155319082, guid: 66619778747a1535da5acfca13f267b9, type: 3}
       propertyPath: m_Name
       value: WinCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349559676155319082, guid: 66619778747a1535da5acfca13f267b9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1192,6 +1200,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 854291108288053008, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
+    - target: {fileID: 854291108288053008, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1850219099130110720, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
+    - target: {fileID: 1850219099130110720, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2913366556428110881, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -1319,6 +1343,14 @@ PrefabInstance:
     - target: {fileID: 4068150057491145789, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6937730097911093119, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 87b420f7c171469748f5be7b232f750c, type: 2}
+    - target: {fileID: 6937730097911093119, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7675845719721345679, guid: d053f703dd30deefba82ab3c20321c3b, type: 3}
       propertyPath: m_Name

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!21 &-3858825633521196570
+--- !u!21 &-8984991375138589768
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 5499495279019887561}
+        m_Texture: {fileID: 1671413391807783690}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -121,11 +121,11 @@ MonoBehaviour:
   m_Name: Changa-Medium
   m_EditorClassIdentifier: 
   hashCode: 677867538
-  material: {fileID: -3858825633521196570}
+  material: {fileID: -8984991375138589768}
   materialHashCode: 1626185074
   m_Version: 1.1.0
-  m_SourceFontFileGUID: d103c1b50a1585786a168825cebff89b
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: d103c1b50a1585786a168825cebff89b, type: 3}
+  m_SourceFontFileGUID: cad1e1962c50a8cf9943aa804e8dafc1
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: cad1e1962c50a8cf9943aa804e8dafc1, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -1996,7 +1996,7 @@ MonoBehaviour:
     m_GlyphIndex: 618
     m_Scale: 1
   m_AtlasTextures:
-  - {fileID: 5499495279019887561}
+  - {fileID: 1671413391807783690}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 0
@@ -2722,7 +2722,7 @@ MonoBehaviour:
   m_FallbackFontAssetTable: []
   m_CreationSettings:
     sourceFontFileName: 
-    sourceFontFileGUID: d103c1b50a1585786a168825cebff89b
+    sourceFontFileGUID: cad1e1962c50a8cf9943aa804e8dafc1
     pointSizeSamplingMode: 0
     pointSize: 78
     padding: 5
@@ -2765,7 +2765,7 @@ MonoBehaviour:
   boldSpacing: 7
   italicStyle: 35
   tabSize: 10
---- !u!28 &5499495279019887561
+--- !u!28 &1671413391807783690
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
