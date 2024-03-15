@@ -357,8 +357,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: LEVEL SELECT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 87b420f7c171469748f5be7b232f750c, type: 2}
-  m_sharedMaterial: {fileID: 4505212510254145877, guid: 87b420f7c171469748f5be7b232f750c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c1e5c44f7de4ed6e5a5c8e5b5491789b, type: 2}
+  m_sharedMaterial: {fileID: 4505212510254145877, guid: c1e5c44f7de4ed6e5a5c8e5b5491789b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -513,7 +513,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1265182512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 21df69b8f8499ccaa80409c9639b0bda, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1265182512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,6 +936,7 @@ GameObject:
   - component: {fileID: 1786736947}
   - component: {fileID: 1786736946}
   - component: {fileID: 1786736945}
+  - component: {fileID: 1786736949}
   m_Layer: 5
   m_Name: MenuCanvas
   m_TagString: Untagged
@@ -1020,6 +1033,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1786736949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786736944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21df69b8f8499ccaa80409c9639b0bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainMenuPanel: {fileID: 0}
+  Level1Button: {fileID: 0}
+  Level2Button: {fileID: 0}
+  Level3Button: {fileID: 0}
+  OptionsMenuPanel: {fileID: 0}
 --- !u!1 &1856758156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1131,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1856758159}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 21df69b8f8499ccaa80409c9639b0bda, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1856758159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1140,6 +1182,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856758156}
   m_CullTransparentMesh: 1
+--- !u!1 &1891819881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891819882}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891819882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891819881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 575.80133, y: 339.87302, z: -296.143}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2857984179120783394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1342,3 +1415,4 @@ SceneRoots:
   - {fileID: 38700083}
   - {fileID: 1786736948}
   - {fileID: 1351501362}
+  - {fileID: 1891819882}

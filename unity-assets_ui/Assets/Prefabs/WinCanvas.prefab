@@ -142,7 +142,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Next
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4f01482a65f031a6a97e52cf5bf43fd2, type: 2}
   m_sharedMaterial: {fileID: -8984991375138589768, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &4118475616907169604
@@ -276,7 +276,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4f01482a65f031a6a97e52cf5bf43fd2, type: 2}
   m_sharedMaterial: {fileID: -8984991375138589768, guid: 9ad538cecd0bd82fea6d1099a38a8ff3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5349559676155319082
@@ -516,7 +516,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: YOU WIN!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 87b420f7c171469748f5be7b232f750c, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c1e5c44f7de4ed6e5a5c8e5b5491789b, type: 2}
   m_sharedMaterial: {fileID: 4505212510254145877, guid: 87b420f7c171469748f5be7b232f750c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6699152390014930796
