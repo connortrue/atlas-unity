@@ -1,5 +1,5 @@
-using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -21,14 +21,6 @@ public class Example : MonoBehaviour
         {
             controller = player.GetComponent<CharacterController>();
             playerCamera = player.GetComponent<Camera>();
-            if (controller == null)
-            {
-                Debug.LogError("Player GameObject does not have a CharacterController component.");
-            }
-            if (playerCamera == null)
-            {
-                Debug.LogError("Player GameObject does not have a Camera component.");
-            }
         }
         else
         {
