@@ -71,14 +71,12 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-
-/[Aa]ssets/[Ss]kyboxes
-
 # Mine
+/[Aa]ssets/[Ss]kyboxes/
+/[Aa]ssets/FarlandSkies/
 *.obj
-*.obj.meta
-*.mat
+*.ogj.meta
 *.json
-#*.meta
-#*.png
-#*.asset
+# *.meta
+*.txt
+*.pdf
