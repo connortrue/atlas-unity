@@ -5,8 +5,8 @@ public class CameraController : MonoBehaviour
     public Transform player; // Reference to the player's transform
     public Vector3 offset; // Offset from the player's position
     private Vector3 lastMousePosition; // To store the last mouse position for delta calculation
-    // Add a boolean to toggle inverted Y mode
-    // public bool invertY = false; // Uncomment this line to enable inverted Y mode
+    // Boolean for later inverted Y mode
+    // public bool invertY = false;
 
     void Start()
     {
