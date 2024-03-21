@@ -29,27 +29,21 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (Input.GetKey("d"))
+        // Get the horizontal and vertical input values
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        // Apply force based on the input values
+        Vector3 moveDirection = new Vector3(horizontalInput, 0, verticalInput);
+        player.AddForce(moveDirection * move * Time.deltaTime);
+
+        // Check for jump input
+        if (Input.GetButton("Jump"))
         {
-            player.AddForce(move * Time.deltaTime,0,0);
-        }
-        if (Input.GetKey("a"))
-        {
-            player.AddForce(-move * Time.deltaTime,0,0);
-        }
-        if (Input.GetKey("w"))
-        {
-            player.AddForce(0,0, move * Time.deltaTime);
-        }
-        if (Input.GetKey("s"))
-        {
-            player.AddForce(0,0, -move * Time.deltaTime);
-        }
-        if (Input.GetKey("space"))
-        {
-            player.AddForce(0,jump * Time.deltaTime,0);
+            player.AddForce(new Vector3(0, jump * Time.deltaTime, 0));
         }
     }
+
 
     void CheckFall()
     {
