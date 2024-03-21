@@ -1,24 +1,37 @@
 using UnityEngine;
 
-public class TransitionManager : MonoBehaviour
+public class CutsceneController : MonoBehaviour
 {
-    public Camera mainCamera;
+    public GameObject mainCamera;
     public GameObject playerController;
     public GameObject timerCanvas;
-    public GameObject cutsceneController;
+    public GameObject cutsceneCamera;
 
-    public void TransitionToGameplay()
+    private Animator animator;
+
+    void Start()
     {
-        // Enable MainCamera
-        mainCamera.gameObject.SetActive(true);
+        animator = GetComponent<Animator>();
+        mainCamera.SetActive(false);
+        timerCanvas.SetActive(false);
+        cutsceneCamera.SetActive(true); 
+    }
 
-        // Enable PlayerController
-        playerController.SetActive(true);
+    void Update()
+    {
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Intro01") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
+        {
+            // Enable Main Camera and TimerCanvas
+            mainCamera.SetActive(true);
+            timerCanvas.SetActive(true);
 
-        // Enable TimerCanvas
-        timerCanvas.SetActive(true);
+            // Disable CutsceneCamera
+            cutsceneCamera.SetActive(false);
 
-        // Disable CutsceneController
-        cutsceneController.SetActive(false);
+            // Enable PlayerController Script
+            PlayerController playerControllerScript = playerController.GetComponent<PlayerController>();
+            if (playerControllerScript != null)
+                playerControllerScript.enabled = true;
+        }
     }
 }
