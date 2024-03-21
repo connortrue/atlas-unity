@@ -5,6 +5,8 @@ public class CameraController : MonoBehaviour
     public Transform player; // Reference to the player's transform
     public Vector3 offset; // Offset from the player's position
     private Vector3 lastMousePosition; // To store the last mouse position for delta calculation
+    // Add a boolean to toggle inverted Y mode
+    // public bool invertY = false; // Uncomment this line to enable inverted Y mode
 
     void Start()
     {
@@ -16,6 +18,8 @@ public class CameraController : MonoBehaviour
     {
         // Update the camera's position to follow the player's position
         transform.position = player.position + offset;
+        // Ensure the camera always faces the player
+        transform.LookAt(player.position);
     }
 
     void Update()
@@ -34,6 +38,8 @@ public class CameraController : MonoBehaviour
             transform.Rotate(Vector3.up, delta.x);
 
             // Rotate the camera around the Y axis
+            // Replace line when boolean is made
+            // transform.Rotate(Vector3.right, invertY ? delta.y : -delta.y);
             transform.Rotate(Vector3.right, -delta.y);
         }
     }
