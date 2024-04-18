@@ -70,13 +70,3 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-
-# Mine
-/[Aa]ssets/[Ss]kyboxes/
-/[Aa]ssets/FarlandSkies/
-*.obj
-*.ogj.meta
-*.json
-# *.meta
-*.txt
-*.pdf
