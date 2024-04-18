@@ -74,6 +74,7 @@ crashlytics-build.properties
 # Mine
 /[Aa]ssets/[Ss]kyboxes/
 /[Aa]ssets/FarlandSkies/
+/[Aa]ssets/OBJ_format/
 *.obj
 *.ogj.meta
 *.json
