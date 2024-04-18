@@ -22,6 +22,16 @@ This project makes use of various resources, each with its own licensing terms. 
 - **Website:** [incompetech.com](https://incompetech.com/)
 - **License:** Licensed under Creative Commons: By Attribution 3.0 ([http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/))
 
+## Farland Skies - Cloudy Crown
+
+- **Website:** [Unity Asset Store](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+- **License:** Please refer to the specific license details on the Unity Asset Store page for each asset used.
+
+## Kenney's Nature Pack Extended
+
+- **Website:** [https://www.kenney.nl/assets/nature-kit](https://www.kenney.nl/assets/nature-kit)
+- **License:** Please refer to the specific license details on the Kenney website for each asset used.
+
 ## Creative Commons Attribution 3.0
 
 - **Notice:** This is an older version of the Creative Commons license. For licensing your own work, it is recommended to use the 4.0 version of the license ([https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)).
